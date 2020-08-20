@@ -1,0 +1,29 @@
+body {
+    background: url(/assets/images/login_bg.jpg) no-repeat;
+    background-size: cover;
+}
+
+#login_form {
+    position: absolute;
+    width: 400px;
+    height: 310px;
+    background-color: #ffffff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form_ {
+    padding: 0 30px;
+}
+
+#tlogo {
+    height: 60px;
+    background: url(/assets/images/login_title.png) no-repeat center;
+}
+
+#go_login,
+#go_reg {
+    font-size: 12px;
+    float: right;
+}
